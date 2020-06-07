@@ -9,7 +9,7 @@ public class BallController : MonoBehaviour
     {
         // 角度-45~45間でランダム向きでボールに外部力をうつ。
         transform.eulerAngles = new Vector3(0, 0, 45);
-        gameObject.GetComponent<Rigidbody>().AddForce(transform.up * 500);
+        gameObject.GetComponent<Rigidbody>().AddForce(transform.up * -500);
     }
 
     // <summary>
