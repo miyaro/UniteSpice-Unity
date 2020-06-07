@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{9E3D6358-3201-BD3C-D16A-5EBBC37BBCD9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BallController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/BallController.cs" Line="11" Column="51" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UniteSpice03" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="BallController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ff7e9394-7a42-4931-b2ef-151d51d1759a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
