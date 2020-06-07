@@ -13,7 +13,7 @@ public class BlockManager : MonoBehaviour
     {
         // ブロックを初期化
         // １行に11個のブロックを設置
-        for (var x = 0; x < 11; x++)
+        for (var x = 0; x < 12; x++)
         {
             // 指定行分ブロックを作成する
             for (var y = 0; y < 5; y++)
