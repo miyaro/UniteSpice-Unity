@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class BallController : MonoBehaviour
 {
+    public int count = 0;
+
     void Start()
     {
         // 角度-45~45間でランダム向きでボールに外部力をうつ。
@@ -22,6 +24,7 @@ public class BallController : MonoBehaviour
         if (other.gameObject.CompareTag("Block"))
         {
             other.transform.SendMessage("DestroyBlock", SendMessageOptions.DontRequireReceiver);
+            count++;
         }
 
         // 下のパネルにぶつかった場合GameOverシーンに移動する
