@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{460D47D1-6B85-61DA-18A1-7505F55834E2}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Optimize SDKohaku-Chanz/Animation/UnityChanController.cs">
+    <Files>
+      <File FileName="Assets/Optimize SDKohaku-Chanz/Animation/UnityChanController.cs" Line="15" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="04sample" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b2e7a949-1e14-4628-9c23-00d4ea3aebca" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2D44386C-0AFB-4A08-0BFD-E99A79DDE4CF}</ProjectGuid>
+    <ProjectGuid>{9E3D6358-3201-BD3C-D16A-5EBBC37BBCD9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\BoardController.cs" />
     <Compile Include="Assets\Scripts\GameRestarter.cs" />
     <Compile Include="Assets\Scripts\GmaeStarter.cs" />
+    <Compile Include="Assets\Scripts\Sample.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Users/miyaguchitakuya/workspace/2019.3.13f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -253,13 +254,13 @@
       <HintPath>/Users/miyaguchitakuya/workspace/2019.3.13f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Users/miyaguchitakuya/workspace/2019.3.13f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -613,46 +614,46 @@
       <HintPath>/Users/miyaguchitakuya/workspace/2019.3.13f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Monetization">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/Program/FirstGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/UniteSpice03/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

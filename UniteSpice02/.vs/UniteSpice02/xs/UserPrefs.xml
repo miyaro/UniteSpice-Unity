@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{476FFFA8-A831-CA18-C5A0-0747F94D13D2}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BoxMover.cs">
+    <Files>
+      <File FileName="Assets/Scripts/BoxMover.cs" Line="19" Column="64" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UniteSpice02" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="BoxMover.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b2e7a949-1e14-4628-9c23-00d4ea3aebca" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
