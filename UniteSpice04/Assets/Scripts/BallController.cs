@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 public class BallController : MonoBehaviour
 {
     public static float clearTime;
+    AudioSource SoundEffect;
 
     void Start()
     {
         // 角度-45~45間でランダム向きでボールに外部力をうつ。
         transform.eulerAngles = new Vector3(0, 0, Random.Range(-45, 45));
         gameObject.GetComponent<Rigidbody>().AddForce(transform.up * 500);
+        SoundEffect = GetComponent<AudioSource>();
     }
 
     // <summary>
@@ -23,7 +25,12 @@ public class BallController : MonoBehaviour
         // ぶつかったものがブロックの場合は、ブロックの[DestroyBlock]関数を実行
         if (other.gameObject.CompareTag("Block"))
         {
+			//ブロック破壊用の関数を呼び出す
             other.transform.SendMessage("DestroyBlock", SendMessageOptions.DontRequireReceiver);
+
+            //衝突時にSEが鳴るようにする
+            SoundEffect.Play();
+
             //ブロックの初期数から一つ減らし、0になったらクリアにする
             BlockManager.boxNum--;
             if (BlockManager.boxNum <= 0)
