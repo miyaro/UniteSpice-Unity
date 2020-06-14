@@ -1,17 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class BlockManager : MonoBehaviour
+public class BlockInit : MonoBehaviour
 {
-    // ブロックの元プレファブ
+    // ブロックの元Prefab
     public GameObject blockResource;
     // ゲーム上のブロックを格納する親オブジェクト
     public Transform blockParent;
 
+	//ブロックのX軸に並べる数
     private static int blockX = 11;
+    //ブロックのY軸に並べる数
     private static int blockY = 5;
 
+	//ブロックの合計数
     public static int boxNum = blockX * blockY;
 
     private void Awake()
