@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class ClearTImeGetter : MonoBehaviour
@@ -10,12 +8,6 @@ public class ClearTImeGetter : MonoBehaviour
     void Start()
     {
         clearTime = this.GetComponent<Text>();
-        clearTime.text = ("clear time: " + Mathf.Ceil(BallController.clearTime).ToString() + "秒");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        clearTime.text = ("clear time: " + Mathf.Ceil(TimeManager.clearTime).ToString() + "秒");
     }
 }
