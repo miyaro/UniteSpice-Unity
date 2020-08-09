@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{57945CC4-4BE2-8588-988A-6294995CD6F7}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BoxIncreaser.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Practice.cs" Line="10" Column="6" />
+      <File FileName="Assets/Scripts/BoxMover.cs" />
+      <File FileName="Assets/Scripts/BoxIncreaser.cs" Line="15" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UniteSpice02-02" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="BoxIncreaser.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4ec48113-27ab-4afc-8fc7-174be572327f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
