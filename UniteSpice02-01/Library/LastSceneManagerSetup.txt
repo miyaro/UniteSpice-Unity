@@ -1,5 +1,0 @@
-sceneSetups:
-- path: /Users/miyaguchitakuya/workspace/pictoria/UniteSpice/UniteSpiceUnity/US02-02/Assets/Scenes/Main.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
