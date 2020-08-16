@@ -16,4 +16,17 @@ public class BoardController : MonoBehaviour
             gameObject.transform.position += transform.right * 0.3f;
         }
     }
+
+    private void LateUpdate()
+    {
+        if (transform.position.x >= moveLimit)
+        {
+            transform.position = new Vector3(moveLimit, transform.position.y, transform.position.z);
+        }
+        else if (transform.position.x <= -moveLimit)
+        {
+            transform.position = new Vector3(-moveLimit, transform.position.y, transform.position.z);
+        }
+    }
+
 }
