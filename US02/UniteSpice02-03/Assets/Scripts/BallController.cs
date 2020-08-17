@@ -5,28 +5,34 @@ using UnityEngine.SceneManagement;
 
 public class BallController : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
-        gameObject.transform.eulerAngles = new Vector3(0, 0, Random.Range(-45,45));
+        // 角度-45~45間でランダム向きでボールに外部力をうつ。
+        transform.eulerAngles = new Vector3(0, 0, 45);
         gameObject.GetComponent<Rigidbody>().AddForce(transform.up * 500);
     }
 
+    // <summary>
+    // ボールの当たり判定
+    // </summary>
+    // <param name = "other" ></ param >
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("Cube"))
+        // ぶつかったものがブロックの場合は、ブロックの[DestroyBlock]関数を実行
+        if (other.gameObject.CompareTag("Block"))
         {
             other.transform.SendMessage("DestroyBlock", SendMessageOptions.DontRequireReceiver);
-
-            BlockInit.blockNum--;
-            Debug.Log(BlockInit.blockNum);
-
-            if (BlockInit.blockNum <= 0)
-            {
-                SceneManager.LoadScene("GameClear");
-            }
         }
 
+        //ブロック数を減らし、全て破壊したらゲームクリア
+        BlockInit.blockNum--;
+
+        if (BlockInit.blockNum <= 0)
+        {
+            SceneManager.LoadScene("GameClear");
+        }
+
+        // 下のパネルにぶつかった場合GameOverシーンに移動する
         if (other.gameObject.CompareTag("Bottom"))
         {
             SceneManager.LoadScene("GameOver");

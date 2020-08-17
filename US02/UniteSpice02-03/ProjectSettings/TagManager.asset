@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Block
   - Bottom
-  - Cube
+  - Ball
   layers:
   - Default
   - TransparentFX

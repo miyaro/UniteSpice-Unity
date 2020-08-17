@@ -2,29 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BlockInit : MonoBehaviour
+public class BlockInit: MonoBehaviour
 {
-    //ブロックの元プレファブ
+    // ブロックの元プレファブ
     public GameObject blockResource;
-
-    //親オブジェクトの場所
+    // ゲーム上のブロックを格納する親オブジェクト
     public Transform blockParent;
 
-    public static int blockX = 11;
-    public static int blockY = 5;
+    static int blockX = 1;
+    static int blockY = 1;
     public static int blockNum = blockX * blockY;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        for (int x = 0; x < blockX; x++)
+        // ブロックを初期化
+        // １行に11個のブロックを設置
+        for (var x = 0; x < blockX; x++)
         {
-            for (int y = 0; y < blockY; y++)
+            // 指定行分ブロックを作成する
+            for (var y = 0; y < blockY; y++)
             {
-                GameObject block = Instantiate(blockResource, blockParent);
-                block.transform.position = new Vector3(-12.5f + 2.5f * x, 7.25f - 0.8f * y, 10);
+                // ブロックリソースからブロックを作成
+                GameObject blocks = Instantiate(blockResource, blockParent);
+                // ブロックの位置を指定
+                blocks.transform.position = new Vector3(-12.5f + 2.5f * x, 7.25f - 0.8f * y, 10);
             }
         }
     }
-
 }

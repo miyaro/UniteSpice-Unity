@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class BoardController : MonoBehaviour
 {
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            gameObject.transform.position -= transform.right * 0.3f;
+            transform.position -= transform.right * 0.3f;
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            gameObject.transform.position += transform.right * 0.3f;
+            transform.position += transform.right * 0.3f;
         }
     }
+
 }
