@@ -9,8 +9,8 @@ public class BlockInit: MonoBehaviour
     // ゲーム上のブロックを格納する親オブジェクト
     public Transform blockParent;
 
-    static int blockX = 1;
-    static int blockY = 1;
+    static int blockX = 11;
+    static int blockY = 5;
     public static int blockNum = blockX * blockY;
 
     private void Awake()

@@ -12,10 +12,8 @@ public class BallController : MonoBehaviour
         gameObject.GetComponent<Rigidbody>().AddForce(transform.up * 500);
     }
 
-    // <summary>
     // ボールの当たり判定
-    // </summary>
-    // <param name = "other" ></ param >
+
     private void OnCollisionEnter(Collision other)
     {
         // ぶつかったものがブロックの場合は、ブロックの[DestroyBlock]関数を実行
@@ -26,7 +24,6 @@ public class BallController : MonoBehaviour
 
         //ブロック数を減らし、全て破壊したらゲームクリア
         BlockInit.blockNum--;
-
         if (BlockInit.blockNum <= 0)
         {
             SceneManager.LoadScene("GameClear");
