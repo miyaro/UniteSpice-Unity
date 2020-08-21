@@ -19,7 +19,6 @@ public class BallController : MonoBehaviour
             other.transform.SendMessage("DestroyBlock", SendMessageOptions.DontRequireReceiver);
 
             BlockInit.blockNum--;
-            Debug.Log(BlockInit.blockNum);
 
             if (BlockInit.blockNum <= 0)
             {
