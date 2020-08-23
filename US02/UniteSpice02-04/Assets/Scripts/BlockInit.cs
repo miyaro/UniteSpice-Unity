@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BlockInit : MonoBehaviour
 {
@@ -10,7 +8,9 @@ public class BlockInit : MonoBehaviour
     //親オブジェクトの場所
     public Transform blockParent;
 
+    //ブロックの横の数
     public static int blockX = 11;
+    //ブロックの縦の数
     public static int blockY = 5;
     public static int blockNum = blockX * blockY;
 
